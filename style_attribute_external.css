@@ -1,0 +1,28 @@
+header,
+
+div{
+
+}
+.centered{
+    text-align: center;
+}
+.large{
+    font-size: large;
+}
+.medium{
+    font-size: medium;
+}
+.small{
+    font-size: small;
+
+}
+#first{
+    font-size: large;
+    color: brown;
+    font-style: italic;
+}
+#second{
+    font-size: large;
+    color: blue;
+    font-style: initial;
+}

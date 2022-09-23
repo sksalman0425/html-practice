@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <select id="car" name="cars">
+            <!-- bydefault first option will display on dropdown -->
+            <option value="1">Audi</option>
+            <option value="2">Fiat</option>
+            <option value="3">maruti</option>
+            <option value="4">skoda</option>
+            <!-- by using selected attribute we can get bydefault value on dropdown -->
+            <option value="5" selected>tata</option>
+        </select>
+         <br/>
+         <!-- textarea is used for comment purpose. you can click enter button and textarea size automatically chage because 
+        here we donot assign value attribute to limit word limit -->
+        <textarea name="multiple" rows="5" cols="50">
+            this is text area.
+        </textarea>
+        <!-- here input type is text. you can not click on enter button and maxlength define max letter we can enter in textbox  -->
+        <input type="text" maxlength="5"/>
+                <br/>
+                <!-- here we use alert event -->
+        <button type="button" onclick="alert('Hi from button 1')">
+         click button 1
+        </button>
+        <br/>
+        <button type="button" onclick="alert('Hello world from button 2')">
+            click button 2
+           </button>
+    </form>
+    <a href="list.html">Go to list page</a>
+    
+</body>
+</html>
