@@ -1,2 +1,2 @@
-# html-practice2
+# html-practice
 All the html tags practiced
